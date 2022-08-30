@@ -1,0 +1,121 @@
+/**
+ * NAME: ASHRAF DIAB
+ * PHONE: 01020869595
+ * EMAIL: ashraf.diab22.ad@gmail.com
+*/
+
+/***************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body and html style */
+body,
+html {
+    font-family: 'Cairo', sans-serif;
+    height: 100%;
+}
+
+/* main container div style */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: #43439d;
+}
+
+/* form style */
+.form {
+    width: 300px;
+    padding: 50px 25px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #262655;
+    border-radius: 25px;
+}
+
+/* input style */
+.input {
+    border: 0px;
+    border-bottom: 1px solid #43439d;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+/* remove arrows from input with type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+/* submit button style */
+.btn {
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: #000;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #43439d;
+    box-shadow: 0 6px #353578;
+}
+.btn:hover {
+    position: relative;
+    top: 2px;
+    box-shadow: 0 4px #353578;
+}
+.btn:active {
+    position: relative;
+    top: 4px;
+    box-shadow: 0 2px #353578;
+}
+
+/* result style */
+.results {
+    font-family: 'Cairo', sans-serif;
+    width: 600px;
+    padding: 50px 25px;
+    border-radius: 25px;
+    background-color: #262655;
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.result {
+    display: inline-block;
+}
+
+/* danger div style */
+.danger {
+    width: 325px;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    text-align: left;
+}
